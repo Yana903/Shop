@@ -1,0 +1,116 @@
+
+/*hero card-product*/
+.card-product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    position: relative;
+    padding-top: 40px;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.card-product-hover {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: -27px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 138%;
+    height: 100%;
+    background: rgba(1,1,1, 0.5);
+}
+
+.card-product:not(:hover) .card-product-hover {
+    display: none !important;
+}
+
+.blaze{
+    padding: 8px 20px ;
+    position: absolute;
+    top: 0;
+    right: -38px;
+}
+
+.hot, .new, .sale {
+    color: #fff;
+    font-size: 11px;
+}
+
+.hot {
+    background: #e05d6f;
+}
+
+.new {
+    background: #16a085;
+}
+
+.sale {
+    background: #5bc0de;
+}
+
+.back-blaze {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e05d6f;
+    width: 45px;
+    height: 45px;
+}
+
+.back-blaze a:hover {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.slider-dots {
+    color: #fff;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-dot {
+    display: inline-block;
+    margin-right: 2px;
+    width: 2px;
+    height: 2px;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.card-description{
+    padding-bottom: 28px;
+}
+
+.card-title {
+    margin-bottom: 0;
+    color: #666666;
+}
+
+.card-price {
+    color: #e05d6f;
+}
+
+/*end hero card-product*/

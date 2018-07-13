@@ -1,8 +1,3 @@
-.container {
-    max-width: 950px;
-    margin: 0 auto;
-    padding: 30px;
-}
 
 [class^="icon-"],
 [class*=" icon-"] {
@@ -37,4 +32,10 @@ svg[class*=" icon-"] {
 
 .fa-phone {
     transform: rotate(90deg);
+}
+
+.icon-zoom-in{
+    fill: #fff !important;
+    width: 14px;
+    height: 14px;
 }

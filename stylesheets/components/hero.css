@@ -1,0 +1,45 @@
+.slider {
+    position: relative;
+    max-width: 100%;
+}
+
+.slider-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../../img/home_img/bg_hero.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-foreground {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-foreground span:first-of-type{
+    margin-right: auto;
+}
+
+.slider-foreground span:last-of-type{
+    margin-left: auto;
+}
+
+.slider-foreground span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 100px;
+    background: rgba(1,1,1,0.5);
+    color: #fff;
+    font-size: 24px;
+}
