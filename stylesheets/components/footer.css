@@ -30,6 +30,7 @@
     color: #ffffff;
     text-transform: uppercase;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .contact-item i {
@@ -63,9 +64,6 @@
 }
 .copyright-footer {
     background-color: var(--global-secondary-background)
-}
-.copy-info p {
-    color: var(--global-muted-color);
 }
 .copy-info p span {
     color: #666666;
