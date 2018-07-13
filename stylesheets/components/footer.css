@@ -1,0 +1,12 @@
+/*layout*/
+.layout-footer-contact {
+    display: flex;
+    max-height: 145px;
+    justify-content: space-between;
+    background-color: var(--global-danger-background);
+}
+
+/*components*/
+.contact-item * {
+    color: #ffffff;
+}
