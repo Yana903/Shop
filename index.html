@@ -121,7 +121,7 @@
               <div class="slider slider-hero">
                 <div class="slider-item">
                   <div class="layout layout-slider">
-                    
+
                   </div>
                 </div>
               </div>
@@ -186,18 +186,18 @@
             <div class="container">
               <div class="layout-list-footer">
               <div class="list-about">
-                <h4>about us</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                   sed do eiusmod tempor incididunt ut labore et dolore magna 
-                   aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                   elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                <h4 class="title-list-footer">about us</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                   sed do eiusmod tempor incididunt ut labore et dolore magna
+                   aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing
+                   elit, sed do eiusmod tempor incididunt ut labore et dolore
                    magna aliqua. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
               <div class="list-info">
-                <h4>information</h4>
+                <h4 class="title-list-footer">information</h4>
                 <ul class="info-actions">
                   <li>
                     <a href="">Delivery Informations</a>
@@ -223,13 +223,16 @@
                 </ul>
               </div>
               <div class="list-contact">
-                <ul class="contact dates">
-                  <li><strong>Headquarters:</strong>Vajnorska 127, Lorem Tower
-                    Bratislava, SK</li>
-                  <li><strong>Phone:</strong> 0948 665 666</li>
-                  <li><strong>Fax:</strong> +421 02 66 84 69</li>
-                  <li><strong>Email:</strong> minovate@tattek.com</li>
-                  <li><strong>Skype:</strong> tattek</li>
+                  <h4 class="title-list-footer">contact us</h4>
+                <ul class="contact-dates">
+                  <li><strong>Headquarters:</strong></li>
+                  <li>Vajnorska 127, Lorem Tower Bratislava, SK</li>
+                </ul>
+                <ul class="contact-dates">
+                  <li><strong>Phone: </strong> 0948 665 666</li>
+                  <li><strong>Fax: </strong> +421 02 66 84 69</li>
+                  <li><strong>Email: </strong> minovate@tattek.com</li>
+                  <li><strong>Skype: </strong> tattek</li>
                 </ul>
               </div>
               </div>
@@ -238,16 +241,21 @@
           <div class="form-footer">
             <div class="container">
               <div class="layout-form-footer">
-                <h4>newslatter</h4>
-                <input type="email">
+                <div class="input-footer">
+                    <h4 class="title-list-footer">newslatter</h4>
+                    <fieldset>
+                        <input type="email" placeholder="Enter your email">
+                        <button class="button">SUBSCRIBE</button>
+                    </fieldset>
+                </div>
                 <div class="social-footer">
-                  <a href=""><span class="icon-social-facebook"></span></a>
-                  <a href=""><span class="icon-social-twitter"></span></a>
-                  <a href=""><span class="icon-google+"></span></a>
-                  <a href=""><span class="icon-social-pinterest"></span></a>
-                  <a href=""><span class="icon icon-social-dribbble"></span></a>
-                  <a href=""><span class="icon-git"></span></a>
-                  <a href=""><span class="icon-social-linkedin"></span></a>
+                  <a href=""><svg class="icon icon-social-facebook"><use xlink:href="#icon-social-facebook"></use></svg></a>
+                  <a href=""><svg class="icon icon-social-twitter"><use xlink:href="#icon-social-twitter"></use></svg></a>
+                  <a href=""><svg class="icon icon-google+"><use xlink:href="#icon-google+"></use></svg></a>
+                  <a href=""><svg class="icon icon-social-pinterest"><use xlink:href="#icon-social-pinterest"></use></svg></a>
+                  <a href=""><svg class="icon icon-social-dribbble"><use xlink:href="#icon-social-dribbble"></use></svg></a>
+                  <a href=""><svg class="icon icon-git"><use xlink:href="#icon-git"></use></svg></a>
+                  <a href=""><svg class="icon icon-social-linkedin"><use xlink:href="#icon-social-linkedin"></use></svg></a>
                 </div>
               </div>
             </div>
@@ -271,8 +279,42 @@
               </div>
             </div>
           </div>
-          
+
         </div>
+        <!--icons-for-footer-->
+        <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs>
+              <symbol id="icon-social-linkedin" viewBox="0 0 24 24">
+                  <title>social-linkedin</title>
+                  <path d="M8 19h-3v-10h3v10zM19 19h-3v-5.342c0-1.392-0.496-2.085-1.479-2.085-0.779 0-1.273 0.388-1.521 1.165 0 1.262 0 6.262 0 6.262h-3c0 0 0.040-9 0-10h2.368l0.183 2h0.062c0.615-1 1.598-1.678 2.946-1.678 1.025 0 1.854 0.285 2.487 1.001 0.637 0.717 0.954 1.679 0.954 3.030v5.647z"></path>
+                  <path d="M8.050 6.5c0 0.828-0.694 1.5-1.55 1.5s-1.55-0.672-1.55-1.5c0-0.828 0.694-1.5 1.55-1.5s1.55 0.672 1.55 1.5z"></path>
+              </symbol>
+              <symbol id="icon-social-pinterest" viewBox="0 0 24 24">
+                  <title>social-pinterest</title>
+                  <path d="M12.486 4.771c-4.23 0-6.363 3.033-6.363 5.562 0 1.533 0.581 2.894 1.823 3.401 0.205 0.084 0.387 0.004 0.446-0.221 0.041-0.157 0.138-0.553 0.182-0.717 0.061-0.221 0.037-0.3-0.127-0.495-0.359-0.422-0.588-0.972-0.588-1.747 0-2.25 1.683-4.264 4.384-4.264 2.392 0 3.706 1.463 3.706 3.412 0 2.568-1.137 4.734-2.824 4.734-0.932 0-1.629-0.77-1.405-1.715 0.268-1.13 0.786-2.347 0.786-3.16 0-0.729-0.392-1.336-1.2-1.336-0.952 0-1.718 0.984-1.718 2.304 0 0.841 0.286 1.409 0.286 1.409s-0.976 4.129-1.146 4.852c-0.34 1.44-0.051 3.206-0.025 3.385 0.013 0.104 0.149 0.131 0.21 0.051 0.088-0.115 1.223-1.517 1.607-2.915 0.111-0.396 0.627-2.445 0.627-2.445 0.311 0.589 1.213 1.108 2.175 1.108 2.863 0 4.804-2.608 4.804-6.103-0.003-2.64-2.24-5.1-5.64-5.1z"></path>
+              </symbol>
+              <symbol id="icon-social-dribbble" viewBox="0 0 24 24">
+                  <title>social-dribbble</title>
+                  <path d="M12 3c-4.962 0-9 4.037-9 9s4.038 9 9 9 9-4.037 9-9-4.038-9-9-9zM18.962 11.275c-1.765-0.289-3.534-0.187-5.205 0.262-0.18-0.436-0.383-0.859-0.59-1.283 1.422-0.81 2.685-1.912 3.713-3.262 1.143 1.113 1.909 2.611 2.082 4.283zM16.13 6.361c-0.939 1.243-2.1 2.259-3.401 3.009-0.782-1.445-1.729-2.8-2.807-4.056 0.657-0.204 1.355-0.314 2.078-0.314 1.545 0 2.971 0.51 4.13 1.361zM8.947 5.711c1.119 1.265 2.093 2.645 2.892 4.117-2.061 0.957-4.396 1.294-6.717 0.899 0.408-2.212 1.86-4.058 3.825-5.016zM5 12c0-0.1 0.011-0.195 0.015-0.294 0.676 0.111 1.353 0.188 2.024 0.188 1.827 0 3.607-0.426 5.237-1.187 0.182 0.373 0.365 0.744 0.525 1.127-2.429 0.866-4.583 2.486-6.101 4.726-1.056-1.227-1.7-2.818-1.7-4.56zM7.393 17.257c1.43-2.129 3.465-3.673 5.764-4.487 0.683 1.854 1.123 3.795 1.292 5.779-0.763 0.287-1.587 0.451-2.449 0.451-1.765 0-3.375-0.661-4.607-1.743zM15.407 18.109c-0.196-1.932-0.631-3.822-1.293-5.632 1.564-0.404 3.222-0.486 4.871-0.19-0.102 2.502-1.516 4.668-3.578 5.822z"></path>
+              </symbol>
+              <symbol id="icon-social-twitter" viewBox="0 0 24 24">
+                  <title>social-twitter</title>
+                  <path d="M18.89 7.012c0.808-0.496 1.343-1.173 1.605-2.034-0.786 0.417-1.569 0.703-2.351 0.861-0.703-0.756-1.593-1.14-2.66-1.14-1.043 0-1.924 0.366-2.643 1.078-0.715 0.717-1.076 1.588-1.076 2.605 0 0.309 0.039 0.585 0.117 0.819-3.076-0.105-5.622-1.381-7.628-3.837-0.34 0.601-0.51 1.213-0.51 1.846 0 1.301 0.549 2.332 1.645 3.089-0.625-0.053-1.176-0.211-1.645-0.47 0 0.929 0.273 1.705 0.82 2.388 0.549 0.676 1.254 1.107 2.115 1.291-0.312 0.080-0.641 0.118-0.979 0.118-0.312 0-0.533-0.026-0.664-0.083 0.23 0.757 0.664 1.371 1.291 1.841 0.625 0.472 1.344 0.721 2.152 0.743-1.332 1.045-2.855 1.562-4.578 1.562-0.422 0-0.721-0.006-0.902-0.038 1.697 1.102 3.586 1.649 5.676 1.649 2.139 0 4.029-0.542 5.674-1.626 1.645-1.078 2.859-2.408 3.639-3.974 0.784-1.564 1.172-3.192 1.172-4.892v-0.468c0.758-0.57 1.371-1.212 1.84-1.921-0.68 0.293-1.383 0.492-2.11 0.593z"></path>
+              </symbol>
+              <symbol id="icon-social-facebook" viewBox="0 0 24 24">
+                  <title>social-facebook</title>
+                  <path d="M13 10h3v3h-3v7h-3v-7h-3v-3h3v-1.255c0-1.189 0.374-2.691 1.118-3.512 0.744-0.823 1.673-1.233 2.786-1.233h2.096v3h-2.1c-0.498 0-0.9 0.402-0.9 0.899v2.101z"></path>
+              </symbol>
+              <symbol id="icon-google+" viewBox="0 0 20 20">
+                  <title>google+</title>
+                  <path d="M1.989 5.589c0 1.494 0.499 2.572 1.482 3.205 0.806 0.52 1.74 0.598 2.226 0.598 0.118 0 0.213-0.006 0.279-0.010 0 0-0.154 1.004 0.59 1.996h-0.034c-1.289 0-5.493 0.269-5.493 3.727 0 3.516 3.861 3.695 4.636 3.695 0.061 0 0.097-0.002 0.097-0.002 0.008 0 0.063 0.002 0.158 0.002 0.497 0 1.782-0.062 2.975-0.643 1.548-0.75 2.333-2.059 2.333-3.885 0-1.764-1.196-2.814-2.069-3.582-0.533-0.469-0.994-0.873-0.994-1.266 0-0.4 0.337-0.701 0.762-1.082 0.689-0.615 1.339-1.492 1.339-3.15 0-1.457-0.189-2.436-1.354-3.057 0.121-0.062 0.551-0.107 0.763-0.137 0.631-0.086 1.554-0.184 1.554-0.699v-0.099h-4.599c-0.046 0.002-4.651 0.172-4.651 4.389zM9.413 14.602c0.088 1.406-1.115 2.443-2.922 2.574-1.835 0.135-3.345-0.691-3.433-2.096-0.043-0.676 0.254-1.336 0.835-1.863 0.589-0.533 1.398-0.863 2.278-0.928 0.104-0.006 0.207-0.012 0.31-0.012 1.699 0.001 2.849 0.999 2.932 2.325zM8.212 4.626c0.451 1.588-0.23 3.246-1.316 3.553-0.125 0.035-0.253 0.052-0.384 0.052-0.994 0-1.979-1.006-2.345-2.393-0.204-0.776-0.187-1.458 0.047-2.112 0.229-0.645 0.643-1.078 1.163-1.225 0.125-0.035 0.254-0.053 0.385-0.053 1.2 0 1.972 0.498 2.45 2.178zM16 8v-3h-2v3h-3v2h3v3h2v-3h3v-2h-3z"></path>
+              </symbol>
+              <symbol id="icon-git" viewBox="0 0 28 28">
+                  <title>git</title>
+                  <path d="M9.297 23.656c0-1.375-1.516-1.563-2.578-1.563-1.109 0-2.469 0.234-2.469 1.625 0 1.406 1.609 1.578 2.688 1.578 1.141 0 2.359-0.281 2.359-1.641zM8.375 11.859c0-1.172-0.562-2.234-1.859-2.234-1.437 0-1.937 0.953-1.937 2.266 0 1.297 0.562 2.109 1.937 2.109 1.359 0 1.859-0.875 1.859-2.141zM12.578 6.797v3.156c-0.406 0.141-0.812 0.25-1.234 0.344 0.156 0.422 0.25 0.859 0.25 1.313 0 2.641-1.625 4.656-4.219 5.141-0.781 0.156-1.234 0.484-1.234 1.328 0 2.391 6.312 0.766 6.312 5.172 0 3.578-2.422 4.75-5.672 4.75-2.672 0-5.719-0.891-5.719-4.109 0-1.875 1.141-2.953 2.844-3.516v-0.063c-0.719-0.438-1.047-1.125-1.047-1.969 0-0.797 0.172-1.781 0.984-2.141v-0.063c-1.578-0.531-2.609-2.703-2.609-4.281 0-2.922 2.266-5.063 5.156-5.063 0.969 0 1.937 0.25 2.781 0.734 1.172 0 2.328-0.313 3.406-0.734zM17.547 20.563h-3.469c0.063-0.703 0.063-1.391 0.063-2.094v-9.516c0-0.672 0.016-1.344-0.063-2h3.469c-0.078 0.641-0.063 1.297-0.063 1.937v9.578c0 0.703 0 1.391 0.063 2.094zM26.938 17.094v3.063c-0.828 0.453-1.781 0.609-2.719 0.609-3.344 0-3.734-2.641-3.734-5.359v-5.484h0.031v-0.063c-0.203 0-0.391-0.031-0.578-0.031-0.313 0-0.625 0.047-0.922 0.094v-2.969h1.5v-1.188c0-0.469-0.016-0.938-0.094-1.391h3.547c-0.125 0.859-0.094 1.719-0.094 2.578h2.672v2.969c-0.453 0-0.906-0.063-1.344-0.063h-1.328v5.703c0 0.922 0.203 2.047 1.359 2.047 0.609 0 1.203-0.172 1.703-0.516zM17.938 2.297c0 1.172-0.906 2.266-2.109 2.266-1.234 0-2.156-1.078-2.156-2.266 0-1.203 0.906-2.297 2.156-2.297 1.234 0 2.109 1.125 2.109 2.297z"></path>
+              </symbol>
+          </defs>
+      </svg>
     </footer>
 
   </div>
