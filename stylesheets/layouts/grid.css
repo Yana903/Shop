@@ -1,0 +1,17 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-products .grid-item {
+    width: calc(100% / 3 - 40px);
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.grid-products .grid-item:nth-child(3n+3){
+    padding-right: 0;
+}
