@@ -5,6 +5,7 @@
 
   --form-background:                               #f5f5f5;
   --form-color:                                    var(--global-color);
+  --form-border:                                   none;
 
   --form-focus-background:                         #e7e6e6;
   --form-focus-color:                              var(--global-color);
@@ -156,7 +157,7 @@ select {
   padding: var(--form-padding);
   min-height: var(--form-height);
   background: var(--form-background);
-  border: none;
+  border: var(--form-border);
   color: var(--form-color);
   box-shadow: 0 0 0 0 transparent inset;
   border-radius: 0;
