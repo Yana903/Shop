@@ -10,6 +10,15 @@
 </head>
 
 <body>
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="icon-star-full" viewBox="0 0 20 20">
+            <title>star-full</title>
+            <path d="M10 15l-5.878 3.090 1.123-6.545-4.756-4.635 6.572-0.955 2.939-5.955 2.939 5.955 6.572 0.955-4.756 4.635 1.123 6.545z"></path>
+        </symbol>
+    </defs>
+</svg>
+
 	<div class="heading">
 		<div class="container">
 		<div class="layout layout-heading">
@@ -33,11 +42,115 @@
         <div class="subsection-single-products">
             <div class="layout layout-single-products">
                 <div class="layout-item">
-                    <img src="img/home_img/photo1.png">
+                    <div class="single-product-image">
+                        <img src="img/home_img/photo1.png">
+                    </div>
+                    <hr class="divider">
+
+                    <div class="grid grid-single-product">
+                        <div class="grid-item">
+                            <div class="card card-product">
+                                <div class="card-image back">
+                                    <img class="back" src="img/single-product_img/back.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="card card-product">
+                                <div class="card-image back">
+                                    <img class="back" src="img/single-product_img/back.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="card card-product">
+                                <div class="card-image">
+                                    <img class="back" src="img/single-product_img/back.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="divider">
                 </div>
+
                 <div class="layout-item">
                     <h3>BLACK T-SHIRT</h3>
                     <hr class="divider">
+                    <div class="product-inf">
+                        <div class="price">
+                            <span>$12.99</span>
+                            <span><strike>$18.69</strike></span>
+                        </div>
+                        <div class="status">
+                            <p>Availibility: <span>In stock</span></p>
+                        </div>
+                    </div>
+                    <hr class="divider">
+                    <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.</p>
+                    <ul class="feature">
+                        <li>
+                            <a>Lorem ipsum dolor sit amet</a>
+                        </li>
+                        <li>
+                            <a>consectetur adipiscing elit</a>
+                        </li>
+                        <li>
+                            <a>sed do eiusmod tempor</a>
+                        </li>
+                    </ul>
+                    <hr class="divider">
+                    <div class="form-products single">
+                        <form action="#" method="post" name="form-product">
+                            <div class="form-products-item">
+                                <label class="small-label">SIZE</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-products-item">
+                                <label class="small-label">COLOR</label>
+                                <input type="text">
+                            </div>
+                        </form>
+                    </div>
+                    <hr class="divider">
+                    <div class="add-button">
+                        <div class="add">
+                            <input type="button" value="-">
+                            <input class="number" type="text" value="1">
+                            <input type="button" value="+">
+                        </div>
+                        <div class="button-group">
+                            <a href="#" class="button white">ADD TO CARD</a>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                        </div>
+                        <div class="write-review">
+                            <p>8 Reviews / <a href="#">Write Review</a></p>
+                        </div>
+                    </div>
+                    <div class="about-product">
+                        <p><b>SKU:  </b>SK0631661126</p>
+                        <p><b>Category:  </b>Men, T-Shirts</p>
+                        <p><b>Tags:  </b>men, t-shirts, black, slim</p>
+                    </div>
+                    <div class="share-product">
+                        <h4 class="share">SHARE</h4>
+                        <div class="social-footer short">
+                            <a href=""><svg class="icon icon-social-facebook"><use xlink:href="#icon-social-facebook"></use></svg></a>
+                            <a href=""><svg class="icon icon-social-twitter"><use xlink:href="#icon-social-twitter"></use></svg></a>
+                            <a href=""><svg class="icon icon-google+"><use xlink:href="#icon-google+"></use></svg></a>
+                            <a href=""><svg class="icon icon-social-pinterest"><use xlink:href="#icon-social-pinterest"></use></svg></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
