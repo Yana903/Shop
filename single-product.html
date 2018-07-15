@@ -45,11 +45,115 @@
         <div class="subsection-single-products">
             <div class="layout layout-single-products">
                 <div class="layout-item">
-                    <img src="img/home_img/photo1.png">
+                    <div class="single-product-image">
+                        <img src="img/home_img/photo1.png">
+                    </div>
+                    <hr class="divider">
+
+                    <div class="grid grid-single-product">
+                        <div class="grid-item">
+                            <div class="card card-product">
+                                <div class="card-image back">
+                                    <img class="back" src="img/single-product_img/back.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="card card-product">
+                                <div class="card-image back">
+                                    <img class="back" src="img/single-product_img/back.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="card card-product">
+                                <div class="card-image">
+                                    <img class="back" src="img/single-product_img/back.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="divider">
                 </div>
+
                 <div class="layout-item">
                     <h3>BLACK T-SHIRT</h3>
                     <hr class="divider">
+                    <div class="product-inf">
+                        <div class="price">
+                            <span>$12.99</span>
+                            <span><strike>$18.69</strike></span>
+                        </div>
+                        <div class="status">
+                            <p>Availibility: <span>In stock</span></p>
+                        </div>
+                    </div>
+                    <hr class="divider">
+                    <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.</p>
+                    <ul class="feature">
+                        <li>
+                            <a>Lorem ipsum dolor sit amet</a>
+                        </li>
+                        <li>
+                            <a>consectetur adipiscing elit</a>
+                        </li>
+                        <li>
+                            <a>sed do eiusmod tempor</a>
+                        </li>
+                    </ul>
+                    <hr class="divider">
+                    <div class="form-products single">
+                        <form action="#" method="post" name="form-product">
+                            <div class="form-products-item">
+                                <label class="small-label">SIZE</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-products-item">
+                                <label class="small-label">COLOR</label>
+                                <input type="text">
+                            </div>
+                        </form>
+                    </div>
+                    <hr class="divider">
+                    <div class="add-button">
+                        <div class="add">
+                            <input type="button" value="-">
+                            <input class="number" type="text" value="1">
+                            <input type="button" value="+">
+                        </div>
+                        <div class="button-group">
+                            <a href="#" class="button white">ADD TO CARD</a>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                            <svg class="icon icon-star-full"><use xlink:href="#icon-star-full"></use></svg>
+                        </div>
+                        <div class="write-review">
+                            <p>8 Reviews / <a href="#">Write Review</a></p>
+                        </div>
+                    </div>
+                    <div class="about-product">
+                        <p><b>SKU:  </b>SK0631661126</p>
+                        <p><b>Category:  </b>Men, T-Shirts</p>
+                        <p><b>Tags:  </b>men, t-shirts, black, slim</p>
+                    </div>
+                    <div class="share-product">
+                        <h4 class="share">SHARE</h4>
+                        <div class="social-footer short">
+                            <a href=""><svg class="icon icon-social-facebook"><use xlink:href="#icon-social-facebook"></use></svg></a>
+                            <a href=""><svg class="icon icon-social-twitter"><use xlink:href="#icon-social-twitter"></use></svg></a>
+                            <a href=""><svg class="icon icon-google+"><use xlink:href="#icon-google+"></use></svg></a>
+                            <a href=""><svg class="icon icon-social-pinterest"><use xlink:href="#icon-social-pinterest"></use></svg></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -64,109 +168,146 @@
 
 <!--product-review with tabs-->
 
-<section class="section-product-review">
-  <div class="tabs">
-    <input class="tabs-tab" type="radio" id="tabs-tab1" name="tabstab"/>
-    <label class="tabs-title" for="tabs-tab1"><h6>Description</h6></label>
-    <div class="tabs-text"></div>
+    <section class="section-product-review">
+        <div class="tabs">
+            <input class="tabs-tab" type="radio" id="tabs-tab1" name="tabstab"/>
+            <label class="tabs-title" for="tabs-tab1"><h6>Description</h6></label>
+            <div class="tabs-text"></div>
 
-    <input class="tabs-tab" type="radio" id="tabs-tab2" name="tabstab"/>
-    <label class="tabs-title" for="tabs-tab2"><h6>Informations</h6></label>
-    <div class="tabs-text"></div>
+            <input class="tabs-tab" type="radio" id="tabs-tab2" name="tabstab"/>
+            <label class="tabs-title" for="tabs-tab2"><h6>Informations</h6></label>
+            <div class="tabs-text"></div>
 
-    <input class="tabs-tab" type="radio" id="tabs-tab3" name="tabstab"  checked="checked"/>
-    <label class="tabs-title" for="tabs-tab3"><h6>Reviews (8)</h6></label>
-    <div class="tabs-text">
-      <div class="product-reviews">
-        <div class="product-review">
-          <div class="layout layout-product-review">
-            <div class="layout-item">
-            <p class="product-review-author">Richard</p>
-            <p class="product-review-date">17/03/2015</p>
+            <input class="tabs-tab" type="radio" id="tabs-tab3" name="tabstab" checked="checked"/>
+            <label class="tabs-title" for="tabs-tab3"><h6>Reviews (8)</h6></label>
+            <div class="tabs-text">
+                <div class="product-reviews">
+                    <div class="product-review">
+                        <div class="layout layout-product-review">
+                            <div class="layout-item">
+                                <p class="product-review-author">Richard</p>
+                                <p class="product-review-date">17/03/2015</p>
+                            </div>
+                            <div class="layout-item">
+                                <div class="product-review-stars">
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-review-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                                est laborum</p>
+                        </div>
+                    </div>
+                    <div class="product-review">
+                        <div class="layout layout-product-review-review">
+                            <div class="layout-item">
+                                <p class="product-review-author">Chase</p>
+                                <p class="product-review-date">26/02/2015</p>
+                            </div>
+                            <div class="layout-item">
+                                <div class="product-review-stars">
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                    <svg class="icon icon-star-full product-review-icon">
+                                        <use xlink:href="#icon-star-full"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-review-text">
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum</p>
+                        </div>
+                    </div>
+                    <div class="write-product-review">
+                        <h4>write a review</h4>
+                        <form class="form-product-review">
+                            <div class="layout layout-form-product-review">
+                                <div class="layout-item">
+                                    <input type="text" name="name" placeholder="NAME">
+                                </div>
+                                <div class="layout-item">
+                                    <input type="email" name="email" placeholder="EMAIL">
+                                </div>
+                            </div>
+                            <textarea rows="6">MESSAGE</textarea>
+                            <div class="layout-write-product-review">
+                                <div class="layout-item">
+                                    <h4>rating</h4>
+                                    <div class="write-product-review-icons">
+                                        <svg class="icon icon-star-full product-review-icon">
+                                            <use xlink:href="#icon-star-full"></use>
+                                        </svg>
+                                        <svg class="icon icon-star-full product-review-icon">
+                                            <use xlink:href="#icon-star-full"></use>
+                                        </svg>
+                                        <svg class="icon icon-star-full product-review-icon">
+                                            <use xlink:href="#icon-star-full"></use>
+                                        </svg>
+                                        <svg class="icon icon-star-full product-review-icon">
+                                            <use xlink:href="#icon-star-full"></use>
+                                        </svg>
+                                        <svg class="icon icon-star-full product-review-icon">
+                                            <use xlink:href="#icon-star-full"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="layout-item">
+                                    <button class="button button-small">send review</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="layout-item">
-              <div class="product-review-stars">
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-              </div>
-            </div>
-          </div>
-          <div class="product-review-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
         </div>
-        <div class="product-review">
-          <div class="layout layout-product-review-review">
-            <div class="layout-item">
-              <p class="product-review-author">Chase</p>
-              <p class="product-review-date">26/02/2015</p>
-            </div>
-            <div class="layout-item">
-              <div class="product-review-stars"> 
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-              </div>
-            </div>
-          </div>
-          <div class="product-review-text">
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-        </div>
-        <div class="write-product-review">
-          <h4>write a review</h4>
-          <form class="form-product-review">
-            <div class="layout layout-form-product-review">
-              <div class="layout-item">
-                <input type="text" name="name" placeholder="NAME">
-              </div>
-              <div class="layout-item">
-                <input type="email" name="email" placeholder="EMAIL">
-              </div>
-            </div>
-            <textarea rows="6">MESSAGE</textarea> 
-            <div class="layout-write-product-review">
-              <div class="layout-item">
-                <h4>rating</h4>
-                  <div class="write-product-review-icons">
-                    <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                    <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                    <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                    <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                    <svg class="icon icon-star-full product-review-icon"><use xlink:href="#icon-star-full"></use></svg>
-                  </div>
-              </div>
-              <div class="layout-item">
-                <button class="button button-small">send review</button>
-              </div>
-            </div>
-          </form>
-        </div>
-    </div>
-  </div>  
-    </div>
+    </section>
 </div>
-</section>
 
-  <section class="section-overview-product">
+<section class="section-overview-product">
     <div class="container">
-      <div class="layout layout-overview-product">
-        <div class="layout-item"><h4>related products</h4></div>
-        <div class="layout-item">
-          <div class="overview-nav">
-            <i class="fas fa-chevron-left"></i>
-            </div>
-            <div class="overview-nav">
-            <i class="fas fa-chevron-right"></i>
+        <div class="layout layout-overview-product">
+            <div class="layout-item"><h4>related products</h4></div>
+            <div class="layout-item">
+                <div class="overview-nav">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="overview-nav">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
             </div>
         </div>
-      </div>
-    <div class="grid grid-overview-product">
+        <div class="grid grid-overview-product">
             <div class="grid-item">
                 <div class="card card-product">
                     <div class="card-image">
@@ -211,9 +352,9 @@
                     </div>
                 </div>
             </div>
+        </div>
     </div>
-    </div>
-  </section>
+</section>
 
 
   <footer class="page-footer">
