@@ -71,11 +71,11 @@ input[class="cart-value"]  {
 
 /*end of shopping basket*/
 
-.layout-bestsellers {
+.layout-overview-product {
 	justify-content: space-between;
 }
 
-.bestsellers-nav {
+.overview-nav {
 	display: inline-block;
 	color: #222;
 	margin-right: 5px;
@@ -83,16 +83,16 @@ input[class="cart-value"]  {
 	width: 20px;
 	height: 20px;
 }
-.bestsellers-nav i {
+.overview-nav i {
 	transform: translate(75%, 17%);
 }
 
-.bestsellers-nav:hover {
+.overview-nav:hover {
 	color: #fff;
 	background-color: var(--global-muted-color);
 }
 
-.grid-bestsellers .grid-item {
+.grid-overview-product .grid-item {
 	width: calc(100%/4 - 20px);
 	margin-right: 10px;
 	margin-left: 10px;
