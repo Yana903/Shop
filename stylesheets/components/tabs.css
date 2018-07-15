@@ -48,34 +48,3 @@ input[class="tabs-tab"] {
 .tabs-tab:checked+.tabs-title+.tabs-text {display: flex;}
 .tabs-title:hover {opacity: 0.9;}
 
-.tabs-review {
-    padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
-    padding-top: 30px;
-}
-
-.layout-tabs-review {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tabs-review-author {
-    font-weight: bold;
-    color: #222;
-    margin-bottom: 0;
-}
-
-.tabs-review-date {
-    margin-top: 0;
-    color: #ccc;
-}
-
-.tabs-review-stars {
-    margin-bottom: 10px;
-}
-
-.tabs-review-icon {
-    fill: #f0ad4e !important;
-    margin-bottom: 3px;
-}
