@@ -10,6 +10,16 @@
 </head>
 
 <body>
+
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="icon-star-full" viewBox="0 0 20 20">
+            <title>star-full</title>
+            <path d="M10 15l-5.878 3.090 1.123-6.545-4.756-4.635 6.572-0.955 2.939-5.955 2.939 5.955 6.572 0.955-4.756 4.635 1.123 6.545z"></path>
+        </symbol>
+    </defs>
+</svg>
+
 	<div class="heading">
 		<div class="container">
 		<div class="layout layout-heading">
@@ -27,6 +37,97 @@
 		</div>
 		</div>
 	</div>
+
+<div class="container">
+<!--tabs-->
+
+  <div class="tabs">
+    <input class="tabs-tab" type="radio" id="tabs-tab1" name="tabstab"/>
+    <label class="tabs-title" for="tabs-tab1"><h6>Description</h6></label>
+    <div class="tabs-text"></div>
+
+    <input class="tabs-tab" type="radio" id="tabs-tab2" name="tabstab"/>
+    <label class="tabs-title" for="tabs-tab2"><h6>Informations</h6></label>
+    <div class="tabs-text"></div>
+
+    <input class="tabs-tab" type="radio" id="tabs-tab3" name="tabstab"  checked="checked"/>
+    <label class="tabs-title" for="tabs-tab3"><h6>Reviews (8)</h6></label>
+    <div class="tabs-text">
+      <div class="tabs-reviews">
+        <div class="tabs-review">
+          <div class="layout layout-tabs-review">
+            <div class="layout-item">
+            <p class="tabs-review-author">Richard</p>
+            <p class="tabs-review-date">17/03/2015</p>
+            </div>
+            <div class="layout-item">
+              <div class="tabs-review-stars">
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+              </div>
+            </div>
+          </div>
+          <div class="tabs-review-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+        </div>
+        <div class="tabs-review">
+          <div class="layout layout-tabs-review">
+            <div class="layout-item">
+              <p class="tabs-review-author">Chase</p>
+              <p class="tabs-review-date">26/02/2015</p>
+            </div>
+            <div class="layout-item">
+              <div class="tabs-review-stars"> 
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+              </div>
+            </div>
+          </div>
+          <div class="tabs-review-text">
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+        </div>
+        <div class="write-review">
+          <h4>write a review</h4>
+          <form class="form-review">
+            <div class="layout layout-form-review">
+              <div class="layout-item">
+                <input type="text" name="name" placeholder="NAME">
+              </div>
+              <div class="layout-item">
+                <input type="email" name="email" placeholder="EMAIL">
+              </div>
+            </div>
+            <textarea rows="6">MESSAGE</textarea> 
+            <div class="layout-write-review">
+              <div class="layout-item">
+                <h4>rating</h4>
+                  <div class="write-review-icons">
+                    <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                    <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                    <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                    <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                    <svg class="icon icon-star-full tabs-review-icon"><use xlink:href="#icon-star-full"></use></svg>
+                  </div>
+              </div>
+              <div class="layout-item">
+                <button class="button button-small">send review</button>
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>  
+    </div>
+</div>
+
   <footer class="page-footer">
       <div class="layout layout-footer">
         <div class="footer-contact">

@@ -188,6 +188,7 @@
 
   --form-background:                               #fff;
   --form-color:                                    var(--global-color);
+  --form-border:                                   var(--global-border-width) solid var(--global-border);
 
   --form-focus-background:                         #fff;
   --form-focus-color:                              var(--global-color);
@@ -296,7 +297,7 @@ table th {
   vertical-align: middle;
 }
 
-.button {
+button, .button {
   text-transform: uppercase;
 }
 
