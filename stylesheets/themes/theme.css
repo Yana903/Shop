@@ -267,7 +267,15 @@ input[type=time]:focus,
 input[type=url]:focus,
 textarea:focus,
 select:focus {
-  border-color: var(--global-muted-color)
+  border-color: var(--global-muted-color);
+}
+
+label {
+  width: 100%;
+  font-family: var(--base-heading-font-family);
+  font-weight: var(--base-heading-font-weight);
+  color: var(--base-heading-color);
+  text-transform: var(--base-heading-text-transform);
 }
 
 table th {

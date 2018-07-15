@@ -3,15 +3,23 @@
     flex-wrap: wrap;
 }
 
-.grid-products .grid-item {
-    width: calc(100% / 3 - 40px);
-    display: flex;
-    justify-content: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    background: #fff;
+.grid-products {
+    justify-content: space-between;
 }
 
-.grid-products .grid-item:nth-child(3n+3){
+.grid-products .grid-item {
+    width: calc(100% / 3 - 15px);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.grid-products .grid-item:nth-child(3n){
     padding-right: 0;
 }
+
+.grid-products .grid-item:nth-last-child(-n+3){
+    margin-bottom: 0;
+}
+
+
