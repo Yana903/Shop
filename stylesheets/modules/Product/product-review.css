@@ -1,7 +1,16 @@
+.section-product-review {
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .product-review {
     padding-bottom: 20px;
     border-bottom: 1px solid #eee;
     padding-top: 30px;
+}
+
+.product-reviews {
+    background-color: #fff;
 }
 
 .layout-product-review {

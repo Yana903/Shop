@@ -34,6 +34,26 @@
     display: none !important;
 }
 
+.price-and-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-buy {
+    color: #cccccc;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid transparent;
+}
+
+.button-buy:hover, .button-buy:focus, .button-buy:active {
+    background: #fff;
+    border: 2px solid #e05d6f;
+    border-radius: 2px;
+    color: #e05d6f;
+}
+
 .blaze{
     padding: 8px 20px ;
     position: absolute;
@@ -106,6 +126,7 @@
     padding-top: 30px;
     padding-bottom: 28px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .card-title {
