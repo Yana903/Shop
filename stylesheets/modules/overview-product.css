@@ -1,6 +1,13 @@
+.section-overview-product {
+	margin-bottom: 75px;
+}
 
 .layout-overview-product {
 	justify-content: space-between;
+}
+
+.layout-overview-product h4 {
+	margin-left: 10px;
 }
 
 .overview-nav {

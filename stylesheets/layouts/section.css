@@ -6,6 +6,7 @@
 }
 .layout-products {
     display: flex;
+    padding-top: 50px;
 }
 .subsection-products {
     max-width: 700px;
