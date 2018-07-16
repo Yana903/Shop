@@ -142,14 +142,15 @@
     background-color: var(--button-background-hover);
     color: var(--button-color-hover);
 }
-.copyright-footer .container {
+
+.copyright-footer {
     position: relative;
 }
 .btn-top {
     width: 45px;
     position: absolute;
-    top: -22px;
-    right: -90px;
+    top: -13%;
+    right: 5%;
     display: inline-block;
     height: 45px;
     background-color: #000000;

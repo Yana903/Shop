@@ -33,7 +33,6 @@ input[class="tabs-tab"] {
     flex-grow: 2;
     margin: 0;
     padding: 10px 0;
-    background-color: var(--global-background);
     line-height: 1.43;
 }
 
