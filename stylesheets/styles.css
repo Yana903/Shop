@@ -4,5 +4,6 @@
 @import 'elements/index.css';
 @import 'components/index.css';
 @import 'modules/index.css';
+@import 'modules/product/index.css';
 
 @import 'themes/theme.css';
