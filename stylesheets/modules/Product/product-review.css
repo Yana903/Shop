@@ -63,8 +63,6 @@
     border: var(--global-border-width) solid var(--global-border);
 }
 
-
-
 .form-product-review input::placeholder, .form-product-review textarea {
   font-family: 'RalewayBold';
   color: #ccc;
