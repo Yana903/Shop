@@ -1,0 +1,16 @@
+.slider-nav {
+	display: inline-block;
+	color: #222;
+	margin-right: 5px;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+.slider-nav i {
+	transform: translate(75%, 17%);
+}
+
+.slider-nav:hover {
+	color: #fff;
+	background-color: var(--global-muted-color);
+}
