@@ -8,26 +8,27 @@
 .main-list {
     padding: 0;
     background-color: #ffffff;
+}
+.main-list a {
     color: #666666;
+}
+.main-list a:hover {
+    text-decoration: none;
 }
 .main-list > li {
     padding: 8px 0;
-    border-bottom: 2px solid #f8f8f8;
-    
+    border-bottom: 2px solid #f8f8f8; 
 }
 .main-list li:before {
     content: '\203a';
     font-size: 20px;
     padding: 0 12px;
 }
-.list-active {
+li .list-active {
     color: var(--global-muted-color);
 }
-.list-isnt-active {
-    color: #666666;
-}
-.list-active > ul {
-    padding: 0 18px;
+li > ul {
+    padding: 0 16px;
 }
 .sidebar-product-list {
     margin-top: 0;
@@ -64,4 +65,9 @@ input[type="checkbox"] {
 }
 .mini-best-sellers label, .mini-best-sellers div {
     margin: 12px;
+}
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
 }
