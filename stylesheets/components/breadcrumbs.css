@@ -18,4 +18,5 @@
 }
 .breadcrumbs .is-active a {
 	color: #bbb;
+    pointer-events: none;
 }

@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'LatoRegular';
+    font-family: 'Lato';
     src: url('../../fonts/lato-regular-webfont.woff2') format('woff2'),
          url('../../fonts/lato-regular-webfont.woff') format('woff'),
          url('../../fonts/Lato-Regular.ttf')  format("truetype");
@@ -9,58 +9,58 @@
 }
 
 @font-face {
-    font-family: 'LatoLight';
+    font-family: 'Lato';
     src: url('../../fonts/lato-light-webfont.woff2') format('woff2'),
          url('../../fonts/lato-light-webfont.woff') format('woff'),
          url('../../fonts/Lato-Light.ttf')  format("truetype");
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'LatoBold';
+    font-family: 'Lato';
     src: url('../../fonts/lato-bold-webfont.woff2') format('woff2'),
          url('../../fonts/lato-bold-webfont.woff') format('woff'),
          url('../../fonts/Lato-Bold.ttf')  format("truetype");
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'RalewayBold';
+    font-family: 'Raleway';
     src: url('../../fonts/raleway-bold-webfont.woff2') format('woff2'),
          url('../../fonts/raleway-bold-webfont.woff') format('woff'),
          url('../../fonts/Raleway-Bold.ttf')  format("truetype");
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'RalewayExtraBold';
+    font-family: 'Raleway';
     src: url('../../fonts/raleway-extrabold-webfont.woff2') format('woff2'),
          url('../../fonts/raleway-extrabold-webfont.woff') format('woff'),
          url('../../fonts/Raleway-ExtraBold.ttf')  format("truetype");
-    font-weight: normal;
+    font-weight: 800;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'OpenSansCondenseBold';
+    font-family: 'OpenSansCondense';
     src: url('../../fonts/opensanscondensed-bold-webfont.woff2') format('woff2'),
          url('../../fonts/opensanscondensed-bold-webfont.woff') format('woff'),
          url('../../fonts/OpenSansCondenced-Bold.ttf')  format("truetype");
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
 
 }
 
 
 :root {
-  --global-font-family:                            'LatoRegular', 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --global-font-family:                            'Lato', 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --global-font-size:                              13px;
   --global-line-height:                            1.42;
 
@@ -119,7 +119,7 @@
 
   --base-margin-vertical:                          var(--global-margin);
 
-  --base-heading-font-family:                      'RalewayBold', 'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --base-heading-font-family:                      'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --base-heading-font-weight:                      bold;
   --base-heading-color:                            #222;
   --base-heading-text-transform:                   uppercase;
@@ -164,7 +164,7 @@
 :root {
   --button-color: #222;
   --button-background: #fff;
-  --button-font-family: 'RalewayBold', 'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI",
+  --button-font-family: 'Raleway', -apple-system, BlinkMacSystemFont, "Segoe UI",
                          Roboto, "Helvetica Neue", Arial, sans-serif;;
   --button-font-size: var(--global-font-size);
   --button-font-weight: bold;
