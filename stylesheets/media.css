@@ -1,0 +1,97 @@
+@media screen and (max-width: 768px){
+    .layout-single-products {
+        display: block;
+    }
+    .layout-single-products .layout-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .write-product-review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-description {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5px;
+
+    }
+
+    .price-and-button {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-buy {
+        font-size: 11px;
+    }
+
+
+}
+
+@media screen and (max-width: 640px){
+    .blaze {
+        padding: 3px 10px;
+    }
+
+    .back-blaze {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .layout-products {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .layout-heading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .layout-heading .layout-item {
+        text-align: center;
+    }
+
+    .single-product-image img {
+        width: 25%;
+    }
+
+    .tabs-title {
+        padding: 5px 10px;
+    }
+
+    .tabs {
+        justify-content: space-between;
+    }
+
+    .grid-overview-product .grid-item {
+        width: calc(100% / 2 - 20px);
+        padding-bottom: 20px;
+    }
+
+    .pagination li a {
+        padding: 8px;
+    }
+
+
+    .form-products {
+        margin-top: 30px;
+    }
+
+    .grid-products .grid-item {
+        width: calc(100% / 2 - 15px);
+    }
+
+    .grid-products .grid-item:nth-last-child(-n+3){
+        margin-bottom: 20px;
+    }
+}
+

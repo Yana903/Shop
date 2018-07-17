@@ -87,13 +87,10 @@
     padding-right: 0;
 }
 
-.pagination li a:hover{
+.pagination li a:hover, .pagination .is-active{
     background: #e05d6f;
     color: #fff;
+    border: 2px solid #e05d6f;
 }
 
-.pagination .is-active {
-    background: #e05d6f;
-    color: #fff;
-}
 
