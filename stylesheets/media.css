@@ -73,12 +73,16 @@
     }
 
     .grid-overview-product .grid-item {
-        width: calc(100% / 2 - 20px);
+        width: calc(100% / 2);
         padding-bottom: 20px;
     }
 
     .pagination li a {
         padding: 8px;
+    }
+
+    .section-products {
+        padding-bottom: 40px;
     }
 
 
@@ -87,7 +91,7 @@
     }
 
     .grid-products .grid-item {
-        width: calc(100% / 2 - 15px);
+        width: calc(100% / 2);
     }
 
     .grid-products .grid-item:nth-last-child(-n+3){

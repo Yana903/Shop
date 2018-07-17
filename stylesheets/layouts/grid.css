@@ -4,18 +4,17 @@
 }
 
 .grid-products {
-    justify-content: space-between;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .grid-products .grid-item {
-    width: calc(100% / 3 - 15px);
+    width: calc(100% / 3);
     display: flex;
     justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 20px;
-}
-
-.grid-products .grid-item:nth-child(3n){
-    padding-right: 0;
 }
 
 .grid-products .grid-item:nth-last-child(-n+3){
