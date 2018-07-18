@@ -76,7 +76,13 @@ outline: none;
 .layout-options .layout-item:nth-child(2) {
 	display: flex;
 	justify-content: space-between;
-	width: 34%; 
+	width: 34%;
 }
 
 /*end of shopping basket*/
+
+@media screen and (max-width: 968px) {
+	.date-hide {
+		display: none;
+	}
+}
