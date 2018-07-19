@@ -7,103 +7,118 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <link href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet'/>
+  <link rel="stylesheet" href="img/icomoon/style.css">
 
   <title>Minovate</title>
 </head>
 
 <body>
+<!--   HEADER -->
 
-  <div class="wrapper">
+ <header>
+  <div class="header header__top">
+    <div class="header header__container">
 
-    <a class="button button-primary button-small" href="#">Button</a>
-    <button class="button button-secondary">Button</button>
+<!-- HEADER__TOP-LEFT -->
 
-    <header class="header">
-      <div class="layout layout-header">
-        <div class="layout-item">
-          <div class="toolbar">
-            <div class="container">
-              <div class="layout layout-toolbar">
-                <div class="layout-item">
-                  <ul class="toolbar-nav">
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="layout-item">
-                  <ul class="toolbar-nav">
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+        <div class="header header__top-left">
+          <div class="header header-phone">
+            <span class="header icon-phone"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span>
+              <a class="header-phone-link" href="tel:+38-0421-964-335-12">+421 964 335 12</a>
           </div>
+        <div class="header header-currency">
+          <a href="#" class="header is-active">€</a>
+          <a href="#">£</a>
+          <a href="#">$</a>
         </div>
-        <div class="layout-item">
-          <div class="headerbar">
-            <div class="container">
-              <div class="layout layout-headerbar">
-                <div class="layout-item">
-                  <a href="#" class="logo">
-                    <img class="logo-image" src="" alt="">
-                  </a>
-                </div>
-                <div class="layout-item">
-                  <form action="#" class="form form-search">
-                    <div class="search">
-                      <input type="search" class="search-input">
-                      <button class="search-button">Search</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="header header-language">
+            <span>English</span>
         </div>
-        <div class="layout-item">
-          <nav class="navbar">
-            <div class="container">
-              <div class="layout layout-navbar">
-                <div class="layout-item">
-                  <ul class="navbar-nav">
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                    <li>
-                      <a href="#">Link</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
         </div>
+
+<!-- HEADER__TOP-RIGHT -->
+
+        <div class="header header__top-right">
+            <ul class="header user-navbar">
+                <li class="">
+                    <a href="#">My Account</a>
+                </li>
+                <li class="header navbar-item">
+                    <a href="#">Wishlist</a>
+                </li>
+                <li class="header navbar-item">
+                    <a href="#">Checkout</a>
+                </li>
+                <li class="header navbar-item">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+
+
+<!--END HEADER__TOP-RIGHT -->
+
+    </div>
+  </div>
+
+<!--   END HEADER__TOP AND HEADER__CONTAINER -->
+
+
+
+<!-- HEADER__BOTTOM -->
+
+  <div class="header header__bottom">
+    <div class="header header__container">
+
+<!-- HEADER__BOTTOM-LEFT -->
+
+      <div class="header header__bottom-left">
+        <a href="#" class="logo">
+          <img src="img/logo.png" alt="logo">
+        </a>
       </div>
-    </header>
+
+<!-- HEADER__BOTTOM-RIGHT -->
+
+      <div class="header header__bottom-right">
+        <nav class="header navbar">
+          <ul class="navbar-nav">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link is-active">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Woman</a>
+            </li>
+            <li class="navbar-item">
+              <a href="product-list.html" class="navbar-link">Man</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Kids</a>
+            </li>
+            <li class="navbar-item">
+              <a href="checkout.html" class="navbar-link">Hot</a>
+            </li>
+            <li class="navbar-item">
+              <a href="checkout.html" class="navbar-link">Pages</a>
+            </li>
+          </ul>
+
+          <ul class="action-navbar-nav">
+            <li><a href=""><span class="icon-search"></span></a></li>
+        </nav>
+
+      </div>
+
+<!-- END HEADER__BOTTOM-RIGHT -->
+
+    </div>
+  </div>
+</header>
+
+<!-- END HEADER -->
+
+
 
     <main class="page-main">
       <section class="hero">
